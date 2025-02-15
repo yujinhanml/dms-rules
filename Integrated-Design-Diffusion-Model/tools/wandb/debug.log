@@ -1,0 +1,29 @@
+2025-02-11 19:26:25,897 INFO    MainThread:902799 [wandb_setup.py:_flush():68] Current SDK version is 0.19.1
+2025-02-11 19:26:25,897 INFO    MainThread:902799 [wandb_setup.py:_flush():68] Configure stats pid to 902799
+2025-02-11 19:26:25,897 INFO    MainThread:902799 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2025-02-11 19:26:25,897 INFO    MainThread:902799 [wandb_setup.py:_flush():68] Loading settings from /cpfs04/user/hanyujin/causal-dm/Integrated-Design-Diffusion-Model/tools/wandb/settings
+2025-02-11 19:26:25,897 INFO    MainThread:902799 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-02-11 19:26:25,898 INFO    MainThread:902799 [wandb_init.py:_log_setup():528] Logging user logs to /cpfs04/user/hanyujin/causal-dm/Integrated-Design-Diffusion-Model/tools/wandb/run-20250211_192625-0t50tvzk/logs/debug.log
+2025-02-11 19:26:25,898 INFO    MainThread:902799 [wandb_init.py:_log_setup():529] Logging internal logs to /cpfs04/user/hanyujin/causal-dm/Integrated-Design-Diffusion-Model/tools/wandb/run-20250211_192625-0t50tvzk/logs/debug-internal.log
+2025-02-11 19:26:25,898 INFO    MainThread:902799 [wandb_init.py:init():644] calling init triggers
+2025-02-11 19:26:25,898 INFO    MainThread:902799 [wandb_init.py:init():650] wandb.init called with sweep_config: {}
+config: {'seed': 0, 'conditional': False, 'sample': 'ddim', 'network': 'unet', 'run_name': 'ar_sunshadow_lfd_lnd_rfd_rnd_cnn', 'epochs': 500, 'noise_steps': 1000, 'sample_steps': 100, 'batch_size': 16, 'num_workers': 0, 'image_size': [32, 32], 'dataset_path': '/cpfs04/user/hanyujin/causal-dm/Integrated-Design-Diffusion-Model/datasets/sunshadow_lfd_lnd_rfd_rnd', 'amp': False, 'optim': 'adam', 'loss': 'mse', 'act': 'silu', 'lr': 0.0003, 'lr_func': 'linear', 'result_path': '/cpfs04/user/hanyujin/causal-dm/results', 'save_model_interval': True, 'save_model_interval_epochs': 100, 'start_model_interval': -1, 'vis': False, 'num_vis': 8, 'image_format': 'png', 'noise_schedule': 'linear', 'resume': False, 'start_epoch': None, 'pretrain': False, 'pretrain_path': '', 'use_gpu': 1, 'distributed': False, 'main_gpu': 0, 'world_size': 2, 'cfg_scale': 3, 'contrastive': False, 'contrastive_scale': 1.0}
+2025-02-11 19:26:25,898 INFO    MainThread:902799 [wandb_init.py:init():680] starting backend
+2025-02-11 19:26:25,898 INFO    MainThread:902799 [wandb_init.py:init():684] sending inform_init request
+2025-02-11 19:26:25,909 INFO    MainThread:902799 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-02-11 19:26:25,910 INFO    MainThread:902799 [wandb_init.py:init():697] backend started and connected
+2025-02-11 19:26:25,912 INFO    MainThread:902799 [wandb_init.py:init():790] updated telemetry
+2025-02-11 19:26:25,920 INFO    MainThread:902799 [wandb_init.py:init():822] communicating run to backend with 90.0 second timeout
+2025-02-11 19:26:26,904 INFO    MainThread:902799 [wandb_init.py:init():874] starting run threads in backend
+2025-02-11 19:26:27,295 INFO    MainThread:902799 [wandb_run.py:_console_start():2374] atexit reg
+2025-02-11 19:26:27,295 INFO    MainThread:902799 [wandb_run.py:_redirect():2224] redirect: wrap_raw
+2025-02-11 19:26:27,295 INFO    MainThread:902799 [wandb_run.py:_redirect():2289] Wrapping output streams.
+2025-02-11 19:26:27,295 INFO    MainThread:902799 [wandb_run.py:_redirect():2314] Redirects installed.
+2025-02-11 19:26:27,297 INFO    MainThread:902799 [wandb_init.py:init():916] run started, returning control to user process
+2025-02-12 02:02:32,407 INFO    MainThread:902799 [wandb_run.py:_finish():2100] finishing run yujinhan-the-university-of-hong-kong/autoregressive-diffusion/0t50tvzk
+2025-02-12 02:02:32,409 INFO    MainThread:902799 [wandb_run.py:_atexit_cleanup():2339] got exitcode: 0
+2025-02-12 02:02:32,410 INFO    MainThread:902799 [wandb_run.py:_restore():2321] restore
+2025-02-12 02:02:32,410 INFO    MainThread:902799 [wandb_run.py:_restore():2327] restore done
+2025-02-12 02:02:36,401 INFO    MainThread:902799 [wandb_run.py:_footer_history_summary_info():3892] rendering history
+2025-02-12 02:02:36,401 INFO    MainThread:902799 [wandb_run.py:_footer_history_summary_info():3924] rendering summary
+2025-02-12 02:02:36,410 INFO    MainThread:902799 [wandb_run.py:_footer_sync_info():3853] logging synced files
